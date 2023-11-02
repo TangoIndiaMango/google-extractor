@@ -111,6 +111,7 @@ async def scrape_google_maps(
     background_tasks: BackgroundTasks,
     file: UploadFile,
 ):
+    
     try:
         if file:
             # Define the output path for the resulting CSV file

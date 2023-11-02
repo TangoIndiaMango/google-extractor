@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 from pprint import pprint
 import warnings
+
 import traceback
 
 # ignoring append FutureWarning
