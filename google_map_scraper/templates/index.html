@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Excel File</title>
+</head>
+<body>
+    <form action="/scrape_google_maps/" method="post" enctype="multipart/form-data">
+        <label for="file">Select an Excel file:</label>
+        <input type="file" name="file" accept=".csv" required>
+        <button type="submit">Upload and Scrape</button>
+    </form>
+</body>
+</html>
